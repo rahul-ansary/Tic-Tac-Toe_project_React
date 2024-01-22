@@ -1,0 +1,32 @@
+.Grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.grid-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    padding: 0.5rem;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffc107;
+    color: black;
+}
+
+button:hover{
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    background-color: black;
+}
+
+.turn-highlight{
+    color: white;
+}
